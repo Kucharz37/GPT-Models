@@ -1,0 +1,32 @@
+
+### 3. **Zorganizuj foldery z modelami**
+- Stwórz foldery dla poszczególnych modeli, np. `Model1`, `Model2`, i umieść w nich pliki związane z konkretnymi modelami, takie jak skrypty, wagi modelu, czy pliki konfiguracyjne.
+- Ułatwi to użytkownikom przeglądanie repozytorium.
+
+### 4. **Dodaj plik requirements.txt**
+- Jeśli Twoje modele wymagają dodatkowych bibliotek, utwórz plik **requirements.txt** i dodaj do niego wszystkie zależności. Użytkownicy będą mogli je łatwo zainstalować za pomocą polecenia:
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+### 5. **Dokumentacja**
+- Rozważ dodanie dodatkowej dokumentacji w formie plików Markdown (np. `docs/model1_usage.md`), gdzie bardziej szczegółowo opiszesz działanie poszczególnych modeli.
+
+### 6. **Licencja**
+- Dodaj plik **LICENSE**, który określi warunki korzystania z Twojego repozytorium. Najpopularniejsze licencje to MIT, Apache 2.0, lub GPL. 
+
+### 7. **Commit i Push**
+- Po dodaniu wszystkich plików wykonaj `commit` i `push` do repozytorium:
+  ```bash
+  git add .
+  git commit -m "Initial commit of GPT models"
+  git push origin main
+  ```
+
+### 8. **Dodaj tagi i release’y**
+- Możesz oznaczać kolejne wersje modeli za pomocą **tagów** i tworzyć **releases** na GitHubie. W ten sposób użytkownicy będą mieli dostęp do starszych wersji.
+
+### 9. **Dodaj link do repozytorium w profilu konstruktora**
+- Na koniec skopiuj link do repozytorium i dodaj go w sekcji „Linki” na swoim profilu konstruktora modelu GPT, tak aby inni użytkownicy mogli łatwo przejść do Twoich modeli.
+
+Dzięki tym krokom Twoje modele będą profesjonalnie zorganizowane na GitHubie i łatwo dostępne dla innych. Daj znać, jeśli masz jakieś pytania lub potrzebujesz pomocy w którymś z kroków!
